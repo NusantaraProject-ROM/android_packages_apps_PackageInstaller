@@ -32,9 +32,8 @@ java_library {
 
 android_app {
     name: "PermissionController",
-    sdk_version: "system_current",
-    min_sdk_version: "28",
     privileged: true,
+    platform_apis: true,
     certificate: "platform",
 
     srcs: [
