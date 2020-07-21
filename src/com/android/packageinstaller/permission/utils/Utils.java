@@ -786,8 +786,7 @@ public final class Utils {
      * @return whether the Permissions Hub is enabled.
      */
     public static boolean isPermissionsHubEnabled() {
-        return DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
-                PROPERTY_PERMISSIONS_HUB_ENABLED, true);
+        return true;
     }
 
     /**
